@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm test *)",
+      "Bash(npm audit *)",
+      "Bash(npm install *)",
+      "Bash(node -e \"const ai = require\\('ai'\\); console.log\\(Object.keys\\(ai\\).filter\\(k => ['streamText','appendResponseMessages','Message','tool','generateText'].includes\\(k\\)\\)\\)\")",
+      "Read(//c/Windows/Temp/ai-check/**)",
+      "Bash(node -e ' *)",
+      "mcp__playwright"
+    ]
+  }
+}
